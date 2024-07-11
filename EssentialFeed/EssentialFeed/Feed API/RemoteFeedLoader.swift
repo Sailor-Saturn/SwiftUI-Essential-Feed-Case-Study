@@ -21,7 +21,6 @@ public final class RemoteFeedLoader {
             } else {
                 completion(.connectivity)
             }
-            completion(.connectivity)
         }
     }
 }
