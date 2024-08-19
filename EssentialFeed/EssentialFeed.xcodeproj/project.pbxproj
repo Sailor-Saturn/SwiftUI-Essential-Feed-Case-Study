@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		368213152C737372009B9D2C /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368213142C737372009B9D2C /* FeedItemsMapper.swift */; };
 		36884C132C3EA13C00BCC0CC /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36884C122C3EA13C00BCC0CC /* RemoteFeedLoader.swift */; };
 		36D74A7E2C3825A500376C89 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D74A7D2C3825A500376C89 /* RemoteFeedLoaderTests.swift */; };
 		36E99B262BFE36C100F5F73C /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = 36E99B252BFE36C100F5F73C /* EssentialFeed.docc */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		368213142C737372009B9D2C /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		36884C122C3EA13C00BCC0CC /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		36D74A7D2C3825A500376C89 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; };
 		36E99B212BFE36C100F5F73C /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				36884C122C3EA13C00BCC0CC /* RemoteFeedLoader.swift */,
+				368213142C737372009B9D2C /* FeedItemsMapper.swift */,
 			);
 			path = "Feed API";
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				36884C132C3EA13C00BCC0CC /* RemoteFeedLoader.swift in Sources */,
 				36F4517C2C0E03620034ADB7 /* FeedLoader.swift in Sources */,
+				368213152C737372009B9D2C /* FeedItemsMapper.swift in Sources */,
 				36F4517A2C0E02D80034ADB7 /* FeedItem.swift in Sources */,
 				36E99B262BFE36C100F5F73C /* EssentialFeed.docc in Sources */,
 			);
